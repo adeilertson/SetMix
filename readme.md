@@ -52,13 +52,16 @@ the song is performed on the tour.
         - Adds actions.create_setlist_playlist
         - Adds callers.spotify_auth to facilitate authorization
         - Adds callers.create_playlist to create empty Spotify playlist
-        - Config updates:
-            - Adds spotify_client_id
-            - Adds spotify_secret
-            - Adds spotify_uri
-            - Adds spotify_scope
+    - Config updates:
+        - Adds spotify_client_id
+        - Adds spotify_secret
+        - Adds spotify_uri
+        - Adds spotify_scope
 - 0.1 - 1/27/2024
     - Initial version
+    - Config fields:
+        - setlist_fm_api_key
+        - testing
 
 ## Future Features
 - Get setlist for specifc show by adding venue and date search parameters
