@@ -1,5 +1,5 @@
 # SetMix
-Version 0.1
+Version 0.2
 
 ## Description
 Terminal based tool to view the average setlist for a tour, utilizing the setlist.fm API
@@ -46,6 +46,19 @@ songs performed in their average position performed, along with the song name, a
 the song is performed on the tour.
 
 ## Updates
+- 0.2 - 1/28/2024
+    - Added Spotify playlist creation option
+        - Appears after average setlist is displayed
+        - Adds actions.create_setlist_playlist
+        - Adds callers.spotify_auth to facilitate authorization
+        - Adds callers.create_playlist to create empty Spotify playlist
+        - Config updates:
+            - Adds spotify_client_id
+            - Adds spotify_secret
+            - Adds spotify_uri
+            - Adds spotify_scope
+- 0.1 - 1/27/2024
+    - Initial version
 
 ## Future Features
 - Get setlist for specifc show by adding venue and date search parameters
